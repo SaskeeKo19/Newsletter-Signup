@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>House Of Poems</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Merriweather&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/stylization.css" />
+	</head>
+	<body>
+		<header>
+			<h1>HOUSE OF POEMS</h1>
+		</header>
+
+		<fieldset class="user-form newsletter">
+			<legend><h2>Newsletter SignUp</h2></legend>
+		</fieldset>
+
+
+			<form action="/" method="POST">
+				<fieldset class="user-form">
+					<legend>Contact Information</legend>
+
+					<div class="flexpair">
+						<label for="name">First Name</label>
+						<input
+							type="text"
+							id="fname"
+							name="fname"
+							placeholder="Required"
+							required
+						/>
+					</div>
+
+					<div class="flexpair">
+						<label for="name">Last Name</label>
+						<input
+							type="text"
+							id="lname"
+							name="lname"
+							placeholder="Required"
+							required
+						/>
+					</div>
+
+					<div class="flexpair">
+						<label for="email">Email Address</label>
+						<input
+							type="email"
+							id="email"
+							name="emailid"
+							placeholder="Required"
+							required
+						/>
+					</div>
+
+					<div class="flexpair">
+						<label for="genre">Genre Of Interest</label>
+						<input
+							type="text"
+							id="genre"
+							name="genre"
+							placeholder="e.g. Imagery, Lyrical, Elegy..."
+						/>
+					</div>
+				</fieldset>
+
+				<hr />
+
+				<fieldset class="user-form newsletter">
+					<br />
+					<div class="textarea">
+						<label for="othertopics"
+							><h3>Feedback Vault:</h3></label
+						>
+						<textarea id="othertopics" name="othertopics" placeholder="Broaden the scope of this newsletter with suggestions:"></textarea>
+					</div>
+
+					<button type="submit">Sign Up</button>
+				</fieldset>
+			</form>
+		</main>
+		<footer>
+			<p>Copyright © 2023 The House Of Poems</p>
+		</footer>
+	</body>
+</html>

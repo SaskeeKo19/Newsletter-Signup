@@ -1,0 +1,167 @@
+* {
+    font-family: 'Merriweather', serif;
+}
+
+/*Base Styles*/
+label,
+h3 {
+    color: rgb(110, 110, 110);
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: .9em;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    font-size: .75em;
+    font-style: italic;
+    text-align: right;
+    padding-right: 10px;
+}
+
+header h1 {
+    font-size: 1.3em;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 1.2em;
+}
+
+label {
+    font-size: .9em;
+}
+
+:focus {
+    border: none;
+    box-shadow: 0 8px 6px -6px;
+    transition: 1s;
+}
+
+button:hover {
+    background: rgba(0, 128, 128, 0.849)
+}
+
+
+/*Layout Styles*/
+
+header {
+    background: #020222;
+    color: white;
+    text-align: center;
+    padding: .7em;
+}
+
+.signup {
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    border-top: double 10px;
+    ;
+    padding-top: 30px;
+    background: #f7f9f9;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label,
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    background: rgb(228, 227, 227);
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#zip {
+    width: 50%;
+    display: block;
+}
+
+.flexpair {
+    margin-top: 3%;
+}
+
+.newsletter .flexpair {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+.options label {
+    padding-left: 15px;
+}
+
+.options,
+.textarea,
+textarea {
+    padding-bottom: 30px;
+}
+
+button {
+    width: 100%;
+    height: 4em;
+    background: teal;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: .75em;
+    color: #919191;
+}
+
+@media (min-width:768px) {
+    .flexpair {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #zip {
+        width: 30%;
+        float: left;
+    }
+
+    .ziplabel {
+        width: 50%;
+        float: left;
+    }
+
+}
